@@ -7,6 +7,7 @@ node_js:
 before_script:
   - "npm i -g gatsby"
   - "npm i"
+  - "npm build"
 script:
   - "npm run test"
   - echo $TRAVIS_COMMIT
